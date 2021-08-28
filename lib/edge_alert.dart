@@ -154,11 +154,7 @@ class _EdgeOverlayState extends State<EdgeOverlay>
         position: _positionAnimation,
         child: Container(
           width: MediaQuery.of(context).size.width,
-          padding: EdgeInsets.fromLTRB(
-              20,
-              widget.gravity == 1 ? statusBarHeight + 20 : bottomHeight + 20,
-              20,
-              widget.gravity == 1 ? 20 : 35),
+          padding: EdgeInsets.all(8.0),
           color: widget.backgroundColor,
           child: OverlayWidget(
             title: widget.title,
