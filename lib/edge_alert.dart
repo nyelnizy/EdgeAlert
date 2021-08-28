@@ -181,7 +181,7 @@ class OverlayWidget extends StatelessWidget {
       child: Row(
         children: <Widget>[
           AnimatedIcon(iconData: iconData),
-          Padding(padding: EdgeInsets.only(right: 15)),
+          Padding(padding: EdgeInsets.only(right: 8)),
           Expanded(
               child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
